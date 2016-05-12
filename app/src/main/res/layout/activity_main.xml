@@ -5,21 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/nanodegree_apps_list"
-    android:background="#ffdfeaf1">
+    android:background="@color/backgroundColor">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="@dimen/textview_margin_top"
         android:text="@string/app_heading">
     </TextView>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginTop="@dimen/scrollview_margin"
+        android:layout_marginBottom="@dimen/scrollview_margin">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,8 +29,8 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_marginLeft="110dp"
-                android:layout_marginRight="110dp"
+                android:layout_marginLeft="@dimen/button_margin_sides"
+                android:layout_marginRight="@dimen/button_margin_sides"
                 android:layout_height="wrap_content"
                 android:text="@string/movies"
                 android:onClick="showInfo"
@@ -38,50 +38,50 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_marginLeft="110dp"
-                android:layout_marginRight="110dp"
+                android:layout_marginLeft="@dimen/button_margin_sides"
+                android:layout_marginRight="@dimen/button_margin_sides"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/button_gap"
                 android:text="@string/hawk"
                 android:onClick="showInfo"
                 android:background="@android:color/holo_orange_dark"/>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_marginLeft="110dp"
-                android:layout_marginRight="110dp"
+                android:layout_marginLeft="@dimen/button_margin_sides"
+                android:layout_marginRight="@dimen/button_margin_sides"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/button_gap"
                 android:text="@string/build_it_bigger"
                 android:onClick="showInfo"
                 android:background="@android:color/holo_orange_dark"/>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_marginLeft="110dp"
-                android:layout_marginRight="110dp"
+                android:layout_marginLeft="@dimen/button_margin_sides"
+                android:layout_marginRight="@dimen/button_margin_sides"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/button_gap"
                 android:text="@string/app_material"
                 android:onClick="showInfo"
                 android:background="@android:color/holo_orange_dark"/>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_marginLeft="110dp"
-                android:layout_marginRight="110dp"
+                android:layout_marginLeft="@dimen/button_margin_sides"
+                android:layout_marginRight="@dimen/button_margin_sides"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/button_gap"
                 android:text="@string/ubiquitous"
                 android:onClick="showInfo"
                 android:background="@android:color/holo_orange_dark"/>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_marginLeft="110dp"
-                android:layout_marginRight="110dp"
+                android:layout_marginLeft="@dimen/button_margin_sides"
+                android:layout_marginRight="@dimen/button_margin_sides"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/button_gap"
                 android:text="@string/capstone"
                 android:onClick="showInfo"
                 android:background="@android:color/holo_red_light"/>
